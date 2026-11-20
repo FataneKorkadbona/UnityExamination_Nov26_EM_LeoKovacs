@@ -19,8 +19,8 @@ public class Encounter : MonoBehaviour
     public void SartEncounter()
     {
         Instantiate(coinPrefab, new Vector2(-1, -0.5f),  Quaternion.identity);
-        Instantiate(coinPrefab, new Vector2(0, -0.5f),  Quaternion.identity);
-        Instantiate(coinPrefab, new Vector2(0, 1),  Quaternion.identity);
+        Instantiate(coinPrefab, new Vector2( 0, -0.5f),  Quaternion.identity);
+        Instantiate(coinPrefab, new Vector2( 0, 1),  Quaternion.identity);
     }
     
 }
