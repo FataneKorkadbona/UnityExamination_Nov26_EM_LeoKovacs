@@ -71,6 +71,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
             }
             else
             {
+                animator.SetTrigger("Jumped");
                 // Has jumped. Play jump sound and/or trigger jump animation etc
             }
         }
@@ -95,6 +96,8 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         {
             animator.SetBool("Walking", false);
         }
+        
+        
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
         
         
