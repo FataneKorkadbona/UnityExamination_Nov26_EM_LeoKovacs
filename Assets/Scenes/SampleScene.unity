@@ -249,12 +249,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 619786589}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &566897167
 PrefabInstance:
@@ -317,6 +317,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
   m_PrefabInstance: {fileID: 566897167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &571536669 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+  m_PrefabInstance: {fileID: 1552329738}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
@@ -437,6 +442,7 @@ Transform:
   m_Children:
   - {fileID: 1015170066}
   - {fileID: 1587501938}
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &619786590
@@ -862,8 +868,66 @@ Transform:
   - {fileID: 792353141029535867}
   - {fileID: 566897168}
   - {fileID: 1262755699}
+  - {fileID: 571536669}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1552329738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1545609246}
+    m_Modifications:
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5848236
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.27587557
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093118590507868382, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569944824009827846, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
+      propertyPath: m_Name
+      value: Platform (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3d3f0a6edeab5546aa6fc0cf6d9677f, type: 3}
 --- !u!1 &1587501935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,7 +1126,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 619786589}
   - {fileID: 1545609246}
