@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70bdfa32-74ad-4eab-b5c8-4525aec9fa05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityExamination_Nov26_EM_LeoKovacs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityExamination_Nov26_EM_LeoKovacs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Encounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Encounter.cs" afterDir="false" />
-    </list>
+    <list default="true" id="70bdfa32-74ad-4eab-b5c8-4525aec9fa05" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1795181100093</updated>
       <workItem from="1795181103007" duration="191000" />
-      <workItem from="1795181310649" duration="2786000" />
+      <workItem from="1795181310649" duration="3553000" />
     </task>
     <servers />
   </component>
