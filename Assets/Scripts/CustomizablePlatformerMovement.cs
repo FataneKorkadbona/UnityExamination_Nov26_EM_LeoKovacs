@@ -86,9 +86,17 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         
         //---Handle horizontal velocity---
         velocity.x = moveInput.x * maxSpeed;
-        
+
+        if (moveInput.x < -0.01f || moveInput.x > 0.01f)
+        {
+            animator.SetBool("Walking", true);
+        }
+        else
+        {
+            animator.SetBool("Walking", false);
+        }
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
-        // animator.SetFloat("HorizontalMovement", moveInput.x)
+        
         
         // Flip sprite according to direction (if a sprite renderer has been assigned)
         if (spriteRenderer)
